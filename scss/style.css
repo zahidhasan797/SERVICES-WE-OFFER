@@ -1,0 +1,14 @@
+.social-nav {
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: rgba(10, 18, 32, 0.493);
+}
+.social-nav .nav-link {
+  color: beige;
+}
+
+.hero-container {
+  margin-top: -116px;
+}
+
+/*# sourceMappingURL=style.css.map */

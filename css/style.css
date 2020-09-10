@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.yellow-text {
+  color: #fbc034;
+}
+
+.blue-text {
+  color: #039be6;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+.wrapper-parallax {
+  background-color: white;
+  margin-bottom: 360px;
+}
+
+.nav-container .social-nav {
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: rgba(10, 18, 32, 0.493);
+}
+
+.nav-container .social-nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 1.15rem;
+}
+
+.nav-container .invisible-nav {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.nav-container .invisible-nav .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.109);
+}
+
+.nav-container .invisible-nav .dropdown-menu .dropdown-item {
+  color: white !important;
+}
+
+.nav-container .invisible-nav .dropdown-menu .dropdown-item:hover {
+  color: black;
+}
+
+.nav-container .invisible-nav .navbar-toggler {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.hero-container {
+  z-index: -1;
+  background-image: url("../img/jo.jpg");
+  background-size: cover;
+  background-position: center center;
+  margin-top: -120px;
+  height: 60vh;
+}
+
+.hero-container .hero-text {
+  color: white;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.things-you-shoud h2 {
+  color: #039be6;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.things-you-shoud .containter {
+  padding-right: 0;
+}
+
+.things-you-shoud .fa-angle-right {
+  color: #039be6;
+}
+
+.things-you-shoud .icon {
+  margin-top: -5px;
+  margin-right: 5px;
+}
+
+.things-you-shoud p {
+  line-height: 2rem;
+}
+
+.choose-boosting-section p {
+  line-height: 2rem;
+}
+
+.choose-boosting-section .row {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.choose-boosting-section .img-container {
+  height: 120px;
+}
+
+.register-order-section {
+  background-color: white;
+}
+
+.register-order-section .video-container {
+  height: 70vh;
+  width: 80%;
+}
+
+.register-order-section iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.faq-section {
+  z-index: 1;
+  background-image: url("../img/jo.jpg");
+  background-size: cover;
+  height: 787px;
+  padding: 0;
+  margin-left: -10px;
+}
+
+.faq-section .text-block {
+  margin-top: 2%;
+  background-color: rgba(248, 248, 248, 0.657);
+  padding-top: 8%;
+  padding-bottom: 18%;
+  padding-left: 7%;
+}
+
+.faq-section a {
+  text-decoration: none;
+  background-color: #039be6;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.footer-section {
+  padding-top: 200px;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  background-color: #039be6;
+}
+
+.footer-section .row {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer-section p, .footer-section a {
+  font-size: 0.8rem;
+  color: white;
+}
+
+.footer-section h5 {
+  color: white;
+  font-size: 1rem;
+}
+
+.footer-section .footer-logo {
+  margin-top: -5px;
+}
+
+.spacer {
+  height: 100vh;
+}
+
+@media (max-width: 420px) {
+  .hero-container .hero-text {
+    font-size: 3rem;
+  }
+  .social-nav .account-items a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper-parallax {
+    margin-bottom: 581px;
+  }
+  #social-items a, #discord-logo {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 1024px) {
+  .wrapper-parallax {
+    margin-bottom: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper-parallax {
+    margin-bottom: 300px;
+  }
+  .nav-container .social-nav, .nav-container .invisible-nav {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
